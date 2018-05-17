@@ -118,7 +118,7 @@ public class MyPanel extends JPanel{
 		}
 		this.image = tama.getImage(); // on recupere l’Image de l’icone
 		if (partie.tama.etat.equals("ascend")){
-			tama = new ImageIcon("photobank/boum.png"); // chemin vers l’image
+			tama = new ImageIcon("photobank/boum.jpg"); // chemin vers l’image
 			this.image = tama.getImage(); // on recupere l’Image de l’icone
 			g2d.drawImage(this.image
 					,w/2 - (int)(this.image.getWidth(null)*0.2)
